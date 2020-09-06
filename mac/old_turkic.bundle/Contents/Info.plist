@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.ot</string>
+	<string>org.sil.ukelele.keyboardlayout.𐰜𐰇𐰚𐱅𐰇𐰼𐰜𐰲𐰀</string>
 	<key>CFBundleName</key>
-	<string>𐰰𐰇𐰚 𐱅𐰇𐰼𐰰𐰲𐰀</string>
+	<string>old_turkic</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
-	<key>KLInfo_𐰰𐰇𐰚 𐱅𐰇𐰼𐰰𐰲𐰀</key>
+	<string>1.1</string>
+	<key>KLInfo_𐰜𐰇𐰚 𐱅𐰇𐰼𐰜𐰲𐰀</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
-		<true/>
+		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.ot.𐰰𐰇𐰚𐱅𐰇𐰼𐰰𐰲𐰀</string>
+		<string>org.sil.ukelele.keyboardlayout.𐰜𐰇𐰚𐱅𐰇𐰼𐰜𐰲𐰀.𐰜𐰇𐰚𐱅𐰇𐰼𐰜𐰲𐰀</string>
 		<key>TISIntendedLanguage</key>
-		<string>otk-Orkh</string>
+		<string>otk-Orkh-143</string>
 	</dict>
 </dict>
 </plist>

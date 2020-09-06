@@ -11,18 +11,18 @@ xkb_symbols "basic" {
 
     name[Group1]="Turkish";
 
-    key <AE01>	{ [         1,    exclam,        greater,    exclamdown ] };
-    key <AE02>	{ [         2, apostrophe,      sterling,   twosuperior ] };
-    key <AE03>	{ [         3, asciicircum,   numbersign, threesuperior ] };
-    key <AE04>	{ [         4,       plus,        dollar,    onequarter ] };
-    key <AE05>  { [	        5,	percent,        VoidSymbol, VoidSymbol  ] };
-    key <AE06>	{ [         6,  ampersand, threequarters,    VoidSymbol ] };
-    key <AE07>	{ [         7,      slash,     braceleft,    VoidSymbol ] };
-    key <AE08>	{ [         8,  parenleft,   bracketleft,    VoidSymbol ] };
-    key <AE09>	{ [         9, parenright,  bracketright,     plusminus ] };
-    key <AE10>	{ [         0,      equal,    braceright,        degree ] };
-    key <AE11>	{ [  asterisk,   question,     backslash,  questiondown ] };
-    key <AE12>	{ [     minus, underscore,           bar,    VoidSymbol ] };
+    key <AE01>	{ [         1,      exclam,       greater,    exclamdown ] };
+    key <AE02>	{ [         2,  apostrophe,      sterling,   twosuperior ] };
+    key <AE03>	{ [         3, asciicircum,    numbersign, threesuperior ] };
+    key <AE04>	{ [         4,        plus,        dollar,    onequarter ] };
+    key <AE05>	{ [         5,     percent,    VoidSymbol,    VoidSymbol ] };
+    key <AE06>	{ [         6,   ampersand, threequarters,    VoidSymbol ] };
+    key <AE07>	{ [         7,       slash,     braceleft,    VoidSymbol ] };
+    key <AE08>	{ [         8,   parenleft,   bracketleft,    VoidSymbol ] };
+    key <AE09>	{ [         9,  parenright,  bracketright,     plusminus ] };
+    key <AE10>	{ [         0,       equal,    braceright,        degree ] };
+    key <AE11>	{ [  asterisk,    question,     backslash,  questiondown ] };
+    key <AE12>	{ [     minus,  underscore,           bar,    VoidSymbol ] };
 
     key <AD02>	{ [         w,          W,   VoidSymbol,   VoidSymbol ]	};
     key <AD03>	{ [         e,          E,     EuroSign,   VoidSymbol ]	};
@@ -67,18 +67,18 @@ xkb_symbols "f" {
 
     name[Group1]="Turkish (F)";
 
-    key <AE01>	{ [         1,     exclam,  onesuperior,   exclamdown ]	};
-    key <AE02>	{ [         2,   quotedbl,  twosuperior,   VoidSymbol ]	};
-    key <AE03>	{ [         3, asciicircum, numbersign, threesuperior ] };
-    key <AE04>	{ [         4,     dollar,   onequarter,   VoidSymbol ]	};
-    key <AE05>  { [	        5,	percent,        VoidSymbol, VoidSymbol  ] };
-    key <AE06>	{ [         6,  ampersand, threequarters,  VoidSymbol ]	};
-    key <AE07>	{ [         7, apostrophe,    braceleft,   VoidSymbol ]	};
-    key <AE08>	{ [         8,  parenleft,  bracketleft,   VoidSymbol ]	};
-    key <AE09>	{ [         9, parenright, bracketright,    plusminus ]	};
-    key <AE10>	{ [         0,      equal,   braceright,       degree ]	};
-    key <AE11>	{ [     slash,   question,    backslash, questiondown ]	};
-    key <AE12>	{ [     minus, underscore,          bar,   VoidSymbol ]	};
+    key <AE01>	{ [     1,      exclam,   onesuperior,    exclamdown ]	};
+    key <AE02>	{ [     2,    quotedbl,   twosuperior,    VoidSymbol ]	};
+    key <AE03>	{ [     3, asciicircum,    numbersign, threesuperior ]	};
+    key <AE04>	{ [     4,      dollar,    onequarter,    VoidSymbol ]	};
+    key <AE05>	{ [     5,     percent,    VoidSymbol,    VoidSymbol ]	};
+    key <AE06>	{ [     6,   ampersand, threequarters,    VoidSymbol ]	};
+    key <AE07>	{ [     7,  apostrophe,     braceleft,    VoidSymbol ]	};
+    key <AE08>	{ [     8,   parenleft,   bracketleft,    VoidSymbol ]	};
+    key <AE09>	{ [     9,  parenright,  bracketright,     plusminus ]	};
+    key <AE10>	{ [     0,       equal,    braceright,        degree ]	};
+    key <AE11>	{ [ slash,    question,     backslash,  questiondown ]	};
+    key <AE12>	{ [ minus,  underscore,           bar,    VoidSymbol ]	};
 
     key <AD01>	{ [         f,          F,           at,   VoidSymbol ]	};
     key <AD02>	{ [         g,          G,   VoidSymbol,   VoidSymbol ]	};
@@ -369,59 +369,59 @@ xkb_symbols "otk" {
 
 	name[Group1]="Old Turkic";
 
-    key <AE01>  { [         U10C48,  VoidSymbol,    1,          exclam ] };
-    key <AE02>  { [         U10C05,  VoidSymbol,    2,        quotedbl ] };
-    key <AE03>  { [         U10C02,  VoidSymbol,    3,     asciicircum ] };
-    key <AE04>  { [         U10C47,  VoidSymbol,    4,          dollar ] };
-    key <AE05>  { [         U10C21,  VoidSymbol,    5,         percent ] };
-    key <AE06>  { [         U10C26,  U10C27,        6,       ampersand ] };
-    key <AE07>  { [         U10C36,  U10C37,        7,      apostrophe ] };
-    key <AE08>  { [         U10C38,  U10C39,        8,       parenleft ] };
-    key <AE09>  { [         U10C30,  VoidSymbol,    9,      parenright ] };
-    key <AE10>  { [         U10C1D,  U10C1C,        0,           equal ] };
-    key <AE11>  { [         U10C31,  VoidSymbol,    slash,    question ] };
-    key <AE12>  { [         comma,   semicolon,     minus,  underscore ] };
+    key <AE01>  { [    U10C48, VoidSymbol,     1,      exclam ] };
+    key <AE02>  { [    U10C05, VoidSymbol,     2,    quotedbl ] };
+    key <AE03>  { [    U10C02, VoidSymbol,     3, asciicircum ] };
+    key <AE04>  { [    U10C47, VoidSymbol,     4,      dollar ] };
+    key <AE05>  { [    U10C21, VoidSymbol,     5,     percent ] };
+    key <AE06>  { [    U10C26,     U10C27,     6,   ampersand ] };
+    key <AE07>  { [    U10C36,     U10C37,     7,  apostrophe ] };
+    key <AE08>  { [    U10C38,     U10C39,     8,   parenleft ] };
+    key <AE09>  { [    U10C1C,     U10C1D,     9,  parenright ] };
+    key <AE10>  { [    U10C31,      U2E2E,     0,       equal ] };
+    key <AE11>  { [ backslash,      colon, slash,    question ] };
+    key <AE12>  { [     comma,  semicolon, minus,  underscore ] };
 
-    key <AD01>  { [         U10C13,  VoidSymbol,    at,             VoidSymbol ] };
-    key <AD02>  { [         U10C0F,  U10C10,        numbersign,     VoidSymbol ] };
-    key <AD03>  { [         U10C11,  U10C12,        dollar,         VoidSymbol ] };
+    key <AD01>  { [ U10C13, VoidSymbol,           at, VoidSymbol ] };
+    key <AD02>  { [ U10C11,     U10C12,   numbersign, VoidSymbol ] };
+    key <AD03>  { [ U10C0F,     U10C10,       dollar, VoidSymbol ] };
     key <AD04>  { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC",
-                  [         U10C0D,  U10C0E,        braceleft,      VoidSymbol ] };
-    key <AD05>  { [         U10C23,  VoidSymbol,    braceright,     VoidSymbol ] };
-    key <AD06>  { [         U10C14,  U10C15,        bracketleft,    VoidSymbol ] };
-    key <AD07>  { [         U10C43,  U10C44,        bracketright,   VoidSymbol ] };
-    key <AD08>  { [         U10C3A,  U10C3B,        parenleft,      VoidSymbol ] };
-    key <AD09>  { [         U10C3C,  VoidSymbol,    parenright,     VoidSymbol ] };
-    key <AD10>  { [         U10C2F,  VoidSymbol,    backslash,      VoidSymbol ] };
-    key <AD11>  { [         U10C32,  U10C33,        bar,            VoidSymbol ] };
-    key <AD12>  { [         U10C2A,  U10C2B,        asciitilde,     VoidSymbol ] };
+                  [ U10C0D,     U10C0E,    braceleft, VoidSymbol ] };
+    key <AD05>  { [ U10C23, VoidSymbol,   braceright, VoidSymbol ] };
+    key <AD06>  { [ U10C14,     U10C15,  bracketleft, VoidSymbol ] };
+    key <AD07>  { [ U10C43,     U10C44, bracketright, VoidSymbol ] };
+    key <AD08>  { [ U10C3A,     U10C3B,    parenleft, VoidSymbol ] };
+    key <AD09>  { [ U10C3C, VoidSymbol,   parenright, VoidSymbol ] };
+    key <AD10>  { [ U10C2F,     U10V30,    backslash, VoidSymbol ] };
+    key <AD11>  { [ U10C32,     U10C33,          bar, VoidSymbol ] };
+    key <AD12>  { [ U10C2A,     U10C2B,   asciitilde, VoidSymbol ] };
 
-    key <AC01>  { [         U10C00,  U10C01,        VoidSymbol, VoidSymbol ] };
+    key <AC01>  { [ U10C00,      U10C01, VoidSymbol, VoidSymbol ] };
     key <AC02>  { type[group1] = "FOUR_LEVEL_ALPHABETIC",
-                  [         U10C07,  U10C08,        VoidSymbol, VoidSymbol ] };
-    key <AC03>  { [         U10C06,  VoidSymbol,    EuroSign,   VoidSymbol ] };
-    key <AC04>  { [         U10C03,  U10C04,        dead_breve, VoidSymbol ] };
-    key <AC05>  { [         U10C24,  U10C25,        dead_acute, VoidSymbol ] };
-    key <AC06>  { [         U10C45,  U10C46,        ₺,          VoidSymbol ] };
-    key <AC07>  { [         U10C34,  U10C35,        VoidSymbol, VoidSymbol ] };
-    key <AC08>  { [         U10C22,  VoidSymbol,    VoidSymbol, VoidSymbol ] };
-    key <AC09>  { [         U10C1E,  U10C1F,        sterling,   VoidSymbol ] };
-    key <AC10>  { [         U10C16,  U10C17,        yen,        VoidSymbol ] };
-    key <AC11>  { [         U10C41,  U10C42,        –,          VoidSymbol ] };
-    key <TLDE>  { [         U10C3F,  U10C40,        —,          VoidSymbol ] };
+                  [ U10C07,      U10C08, VoidSymbol, VoidSymbol ] };
+    key <AC03>  { [ U10C06,  VoidSymbol,   EuroSign, VoidSymbol ] };
+    key <AC04>  { [ U10C03,      U10C04, dead_breve, VoidSymbol ] };
+    key <AC05>  { [ U10C24,      U10C25, dead_acute, VoidSymbol ] };
+    key <AC06>  { [ U10C45,      U10C46,          ₺, VoidSymbol ] };
+    key <AC07>  { [ U10C34,      U10C35, VoidSymbol, VoidSymbol ] };
+    key <AC08>  { [ U10C22,  VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AC09>  { [ U10C1E,      U10C1F,   sterling, VoidSymbol ] };
+    key <AC10>  { [ U10C16,      U10C17,        yen, VoidSymbol ] };
+    key <AC11>  { [ U10C41,      U10C42,          –, VoidSymbol ] };
+    key <TLDE>  { [ U10C3F,      U10C40,          —, VoidSymbol ] };
 
-    key <BKSL>  { [         <,       >,             VoidSymbol, VoidSymbol ] };
-    key <AB01>  { [         U10C28,  U10C29,        VoidSymbol, VoidSymbol ] };
-    key <AB02>  { [         U10C2D,  U10C2E,        º,              U10C2C ] };
-    key <AB03>  { [         U10C3D,  VoidSymbol,    ©,          VoidSymbol ] };
-    key <AB04>  { [         U10C09,  U10C0A,        ®,          VoidSymbol ] };
-    key <AB05>  { [         U10C0B,  U10C0C,        ℗,          VoidSymbol ] };
-    key <AB06>  { [         U10C1A,  U10C1B,        VoidSymbol, VoidSymbol ] };
-    key <AB07>  { [         U10C3E,  VoidSymbol,    VoidSymbol, VoidSymbol ] };
-    key <AB08>  { [         U10C20,  VoidSymbol,    ×,          VoidSymbol ] };
-    key <AB09>  { [         U10C18,  U10C19,        ÷,          .          ] };
-    key <AB10>  { [         :,       period,        −,          ,          ] };
-    key <LSGT>  { [         <,       >,             +,          *          ] };
+    key <BKSL>  { [      <,           >, VoidSymbol, VoidSymbol ] };
+    key <AB01>  { [ U10C28,      U10C29, VoidSymbol, VoidSymbol ] };
+    key <AB02>  { [ U10C2D,      U10C2E,          º,     U10C2C ] };
+    key <AB03>  { [ U10C3D,  VoidSymbol,          ©, VoidSymbol ] };
+    key <AB04>  { [ U10C09,      U10C0A,          ®, VoidSymbol ] };
+    key <AB05>  { [ U10C0B,      U10C0C,          ℗, VoidSymbol ] };
+    key <AB06>  { [ U10C1A,      U10C1B, VoidSymbol, VoidSymbol ] };
+    key <AB07>  { [ U10C3E,  VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AB08>  { [ U10C20,  VoidSymbol,          ×, VoidSymbol ] };
+    key <AB09>  { [ U10C18,      U10C19,          ÷,          . ] };
+    key <AB10>  { [      :,      period,          −,          , ] };
+    key <LSGT>  { [      <,           >,          +,          * ] };
 
     include "kpdl(comma)"
     include "level3(ralt_switch)"
