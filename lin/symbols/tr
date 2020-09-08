@@ -392,7 +392,7 @@ xkb_symbols "otk" {
     key <AD07>  { [ U10C43,     U10C44, bracketright, VoidSymbol ] };
     key <AD08>  { [ U10C3A,     U10C3B,    parenleft, VoidSymbol ] };
     key <AD09>  { [ U10C3C, VoidSymbol,   parenright, VoidSymbol ] };
-    key <AD10>  { [ U10C2F,     U10V30,    backslash, VoidSymbol ] };
+    key <AD10>  { [ U10C2F,     U10C30,    backslash, VoidSymbol ] };
     key <AD11>  { [ U10C32,     U10C33,          bar, VoidSymbol ] };
     key <AD12>  { [ U10C2A,     U10C2B,   asciitilde, VoidSymbol ] };
 
@@ -420,7 +420,7 @@ xkb_symbols "otk" {
     key <AB07>  { [ U10C3E,  VoidSymbol, VoidSymbol, VoidSymbol ] };
     key <AB08>  { [ U10C20,  VoidSymbol,          ×, VoidSymbol ] };
     key <AB09>  { [ U10C18,      U10C19,          ÷,          . ] };
-    key <AB10>  { [      :,      period,          −,          , ] };
+    key <AB10>  { [  U2E31,      period,          −,          , ] };
     key <LSGT>  { [      <,           >,          +,          * ] };
 
     include "kpdl(comma)"
